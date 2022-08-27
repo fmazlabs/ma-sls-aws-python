@@ -1,0 +1,16 @@
+connector:
+  name: awsconnectormohantylabs
+  identifier: awsconnectormohantylabs
+  description: ""
+  orgIdentifier: default
+  projectIdentifier: GitExperienceDemo
+  type: Aws
+  spec:
+    credential:
+      type: ManualConfig
+      spec:
+        accessKey: AKIAUJPU3JIZ6EGUMNMU
+        secretKeyRef: awskey
+    delegateSelectors:
+    - demodelegate
+    executeOnDelegate: true
