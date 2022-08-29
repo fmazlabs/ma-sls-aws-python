@@ -12,5 +12,5 @@ connector:
         accessKey: AKIAUJPU3JIZ6EGUMNMU
         secretKeyRef: awskey
     delegateSelectors:
-    - demodelegate
+    - delegategkefm
     executeOnDelegate: true
