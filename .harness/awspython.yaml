@@ -27,7 +27,7 @@ pipeline:
                             connectorRef: account.fmazlabsgit
                             gitFetchType: Branch
                             paths:
-                              - ./serverless.yml
+                              - .
                             repoName: ma-sls-aws-python
                             branch: main
                         configOverridePath: ""
